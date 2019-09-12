@@ -1,0 +1,45 @@
+body {
+    margin: 2% 5%;
+    background-color: #F8F8F8;
+}
+
+.jumbotron {
+    text-align: left;
+	padding-left: 50px;
+    background: url("../../assets/images/header-01.jpg");
+    color: snow;
+}
+
+.panel-heading{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1, p {
+    text-shadow: 0 0 10px #000000;
+}
+
+td {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-top: 0;
+}
+
+th {
+    text-align: center;
+   
+    border-right: 2px solid #000000 !important;
+
+}
+
+th:last-child, td:last-child {
+    border-right: none !important;
+}
+
+.panel, .jumbotron {
+    border-radius: 2px;
+}
+
+td {
+    text-align: center;
+}
